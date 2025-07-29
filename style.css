@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #008000;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #333;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #008000;
+}
+
+/* Hero */
+
+.hero {
+   background: url(./images/NEWS-07.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #008000;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #006600;
+}
+
+
+
+
+
+/* Cricket Stadium Section */
+.stadium-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+    
+}
+
+
+
+
+
+
+
+/* 
+.stadium-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 3rem;
+    align-items: center;
+} */
+.stadium-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.stadium-text,
+.stadium-image {
+    flex: 1 1 400px; 
+}
+
+.stadium-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #008000;
+    font-weight: 600;
+}
+
+.stadium-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.stadium-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* Players Gallery Section */
+.players-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.players-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.players-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #008000;
+    font-weight: 600;
+}
+
+.players-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.players-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.players-image img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+/* About Section */
+.about {
+  background-color: #f0f0f0;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #008000;
+}
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* Live Scores Section */
+.scores {
+  background-color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.scores h2 {
+  color: #008000;
+  margin-bottom: 30px;
+}
+
+.score-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.score-card {
+  background-color: #f4f4f4;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 300px;
+}
+
+.score-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.score-card p {
+  color: #555;
+}
+
